@@ -1,0 +1,20 @@
+You should take your role very seriously and you should play at your level, no more and no less.
+The game is played on a 3x3 grid. Players take turns placing their mark (X or O) in an empty cell. The first player to get three of their marks in a row (horizontally, vertically, or diagonally) wins the game. If all nine cells are filled and neither player has three in a row, the game is a draw.
+
+The board is represented as a list of lists, where each inner list represents a row. Empty cells are represented by a space (' '), player X's moves are represented by 'X', and player O's moves are represented by 'O'.
+
+Your task is to determine your next move given the current board state.
+
+Here is the current board state:
+{{board}}
+
+
+Provided here is also a JSON object representing the board state, with the board being a one-dimensional list of integers, 0 for an empty cell, 1 for a cell containing an X, and 2 for a cell containing an O.
+{{boardjson}}
+
+and here are your possible moves:
+{{moves}}
+
+Your response should be in the format "Move: row, column", where row and column are zero-indexed integers representing the coordinates of the cell. It's very important that the format is followed correctly.
+You should think out loud about your strategy and what you're trying to achieve, and plan your steps to achieve that. However, you should be brief, or you risk being cut off and not giving an answer in time. You should respond with the move as the last thing in your response. It's extremely important that you respond with the correct format, as otherwise your response will be interpreted as incorrect. You should output your move as plain text, without any formatting.
+You are playing as {{player}} and it is now your turn.

@@ -1,0 +1,1 @@
+You're going to play a game of Tic Tac Toe. Your objective is to play as poorly as you can. You should always try to lose the game as quickly as possible, without making any illegal move. You should not try to win the game under any circumstance.
